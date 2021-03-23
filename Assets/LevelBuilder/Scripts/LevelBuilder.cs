@@ -1,17 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelBuilder : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public SOLevelAssets[] Layers;
     void Start()
     {
-        
+        foreach(SOLevelAssets layer in Layers)
+        {
+            LevelGenrater(layer);
+        }
+       
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LevelGenrater(SOLevelAssets layer)
     {
         
     }
