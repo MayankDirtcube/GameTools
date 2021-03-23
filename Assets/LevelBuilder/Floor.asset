@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f7ba17a021e8463e854d6843fb54baf, type: 3}
-  m_Name: AssetList
+  m_Name: Floor
   m_EditorClassIdentifier: 
-  Map: {fileID: 2800000, guid: e65cb1da3c55847c3b669477708d24b1, type: 3}
+  Map: {fileID: 2800000, guid: 69de90bc2ea8d4de591734b837ae80de, type: 3}
   assets:
-  - color: {r: 1, g: 0, b: 0, a: 1}
-    Prefeb: {fileID: 4694905269740582810, guid: a28441b3ca7244177b8d6e6be1d634ca, type: 3}
-  - color: {r: 0, g: 0, b: 1, a: 1}
-    Prefeb: {fileID: 1809661577691512710, guid: 009e8cefb330e4b328d3eca88be63d26, type: 3}
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    Prefeb: {fileID: 5210962093637407037, guid: d2e805522786a4ca4a705c3779256171, type: 3}
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    Prefeb: {fileID: 5189832319230596427, guid: 3cf0d698d2e764d34a69ca99a6181a54, type: 3}
