@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f7ba17a021e8463e854d6843fb54baf, type: 3}
+  m_Name: Level01
+  m_EditorClassIdentifier: 
+  levelAssets:
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    Prefeb: {fileID: 4694905269740582810, guid: a28441b3ca7244177b8d6e6be1d634ca, type: 3}
+    postions:
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
+    - {x: 2, y: -1}
+    - {x: 3, y: -1}
+    - {x: 4, y: -1}
+    - {x: 5, y: -1}
+    - {x: 6, y: -1}
+    - {x: 7, y: -1}
+    - {x: 1, y: -2}
+    - {x: 3, y: -2}
+    - {x: 5, y: -2}
+    - {x: 7, y: -2}
+  - color: {r: 0, g: 1, b: 0, a: 1}
+    Prefeb: {fileID: 4694905269740582810, guid: 839bb5da38f2c4539abc1ffba40b9b7d, type: 3}
+    postions:
+    - {x: 1, y: -7}
+    - {x: 3, y: -7}
+    - {x: 5, y: -7}
+    - {x: 7, y: -7}
+    - {x: 6, y: -2}
+    - {x: 4, y: -2}
+    - {x: 2, y: -2}
+    - {x: 0, y: -2}
+  - color: {r: 0, g: 0, b: 1, a: 1}
+    Prefeb: {fileID: 1809661577691512710, guid: 009e8cefb330e4b328d3eca88be63d26, type: 3}
+    postions:
+    - {x: 0, y: -8}
+    - {x: 1, y: -8}
+    - {x: 2, y: -8}
+    - {x: 3, y: -8}
+    - {x: 4, y: -8}
+    - {x: 5, y: -8}
+    - {x: 6, y: -8}
+    - {x: 7, y: -8}
+    - {x: 6, y: -7}
+    - {x: 4, y: -7}
+    - {x: 2, y: -7}
+    - {x: 0, y: -7}
+  floorTills:
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    Prefeb: {fileID: 5189832319230596427, guid: 3cf0d698d2e764d34a69ca99a6181a54, type: 3}
+    postions:
+    - {x: 0, y: -1}
+    - {x: 0, y: -3}
+    - {x: 0, y: -5}
+    - {x: 0, y: -7}
+    - {x: 1, y: -2}
+    - {x: 1, y: -4}
+    - {x: 1, y: -6}
+    - {x: 1, y: -8}
+    - {x: 3, y: -8}
+    - {x: 2, y: -7}
+    - {x: 2, y: -5}
+    - {x: 3, y: -6}
+    - {x: 2, y: -3}
+    - {x: 3, y: -4}
+    - {x: 2, y: -1}
+    - {x: 3, y: -2}
+    - {x: 4, y: -1}
+    - {x: 6, y: -1}
+    - {x: 5, y: -2}
+    - {x: 7, y: -2}
+    - {x: 4, y: -3}
+    - {x: 6, y: -3}
+    - {x: 5, y: -4}
+    - {x: 7, y: -4}
+    - {x: 4, y: -5}
+    - {x: 6, y: -5}
+    - {x: 5, y: -6}
+    - {x: 7, y: -6}
+    - {x: 3, y: -7}
+    - {x: 4, y: -7}
+    - {x: 6, y: -7}
+    - {x: 5, y: -8}
+    - {x: 7, y: -8}
+    - {x: 5, y: -2}
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    Prefeb: {fileID: 5210962093637407037, guid: d2e805522786a4ca4a705c3779256171, type: 3}
+    postions:
+    - {x: 3, y: -7}
+    - {x: 5, y: -7}
+    - {x: 7, y: -7}
+    - {x: 1, y: -7}
+    - {x: 0, y: -8}
+    - {x: 2, y: -8}
+    - {x: 4, y: -8}
+    - {x: 6, y: -8}
+    - {x: 6, y: -6}
+    - {x: 4, y: -6}
+    - {x: 5, y: -5}
+    - {x: 4, y: -4}
+    - {x: 3, y: -5}
+    - {x: 2, y: -6}
+    - {x: 0, y: -6}
+    - {x: 1, y: -5}
+    - {x: 2, y: -4}
+    - {x: 1, y: -3}
+    - {x: 0, y: -2}
+    - {x: 0, y: -4}
+    - {x: 1, y: -1}
+    - {x: 2, y: -2}
+    - {x: 3, y: -3}
+    - {x: 4, y: -2}
+    - {x: 3, y: -1}
+    - {x: 5, y: -2}
+    - {x: 5, y: -1}
+    - {x: 6, y: -2}
+    - {x: 5, y: -3}
+    - {x: 6, y: -4}
+    - {x: 7, y: -5}
+    - {x: 7, y: -3}
+    - {x: 7, y: -1}
+  LevelGrid: {x: 8, y: 8}
+  LevelMap: {fileID: 11400000, guid: 05d6721c9719d4acf8ea21ed6f786900, type: 2}

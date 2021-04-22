@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f7ba17a021e8463e854d6843fb54baf, type: 3}
+  m_Name: Level02
+  m_EditorClassIdentifier: 
+  levelAssets:
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    Prefeb: {fileID: 4694905269740582810, guid: a28441b3ca7244177b8d6e6be1d634ca, type: 3}
+    postions: []
+  - color: {r: 0.16641992, g: 0.6981132, b: 0.14159843, a: 1}
+    Prefeb: {fileID: 4694905269740582810, guid: 839bb5da38f2c4539abc1ffba40b9b7d, type: 3}
+    postions: []
+  floorTills:
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    Prefeb: {fileID: 5210962093637407037, guid: d2e805522786a4ca4a705c3779256171, type: 3}
+    postions: []
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    Prefeb: {fileID: 5189832319230596427, guid: 3cf0d698d2e764d34a69ca99a6181a54, type: 3}
+    postions: []
+  LevelGrid: {x: 4, y: 4}
+  LevelMap: {fileID: 11400000, guid: 3643fd5f0ef8e4af889bed0c20bc6fd6, type: 2}
